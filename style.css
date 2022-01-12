@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    overflow-x: hidden;
+}
+
+:root {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Montserrat', sans-serif;
+    --green: color #507B6F; 
+    --soft-green: color #85B3A0;
+    --gold: color #E2C977;
+}
+
+
+.portrait{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/portada.png");
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    position: sticky;
+    transform: translateZ(-50px) scale(1.1);
+    perspective: 5px;
+
+    /* border: red solid 1px; */
+}
+
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-title h1{
+    /* border: red 1px solid; */
+    display: flex;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    /* margin-bottom: 10px; */
+}
+
+h2{
+    color: #E2C977;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 100;
+    text-align: 20%;
+    padding-bottom: 30px;
+}
+
+.portrait h3{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+ 
+}
+.date{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    left: 40% ;
+
+    
+}
+
+
+h4 {
+ display: flex;
+ flex-direction: center;
+ text-align: center;
+ color: #507B6F;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ font-size: 2.5rem;
+ padding-top: 50px;
+ 
+}
+
+.section-two-dates{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date-title{
+color: #507B6F;
+font-size: 2.5rem;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+
+}
+
+.ceremony{
+width: 30vw;
+/* border: red 1px solid; */
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 1rem;
+}
+
+.ceremony img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+
+
+}
+
+.party {
+width: 30vw;
+/* border: red 1px solid; */
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.party img{ 
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+
+}
+
+button{
+    width: 200px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #fff;
+    background-color: #85B3A0;
+    border-radius: 30px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+
+}
+
+.dress-code{
+    width: auto;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #E2C977;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.dress-code p{
+margin-top: 20px;
+font-weight: 400;
+}
