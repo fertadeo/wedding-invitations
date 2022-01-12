@@ -167,12 +167,13 @@ button{
     border: none;
     cursor: pointer;
     margin: 30px;
+    font-weight: 300;
 
 }
 
 .dress-code{
     width: auto;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,9 +183,48 @@ button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     letter-spacing: 3px;
+    font-size: 1.2rem;
 }
 
 .dress-code p{
 margin-top: 20px;
 font-weight: 400;
+
+}
+
+.hashtag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.hashtag img{
+    margin-top: 3%;
+    width: 100px;
+    height: 100px;
+    background: #507B6F;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 60px;
+}
+
+.first{
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding: 1%;
+}
+
+.sec{ 
+    font-weight: lighter;
+    text-align: center;
+    padding: 1%;
+
+}
+
+.thr{ 
+    text-transform: uppercase;
+    padding: 1%;
 }
