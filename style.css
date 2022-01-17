@@ -31,9 +31,6 @@ html{
     background-position-y: center;
     background-attachment: fixed;
     transform: translateZ(-50px) scale(1.1);
-    perspective: 5px;
-
-    /* border: red solid 1px; */
 }
 
 
@@ -44,12 +41,10 @@ html{
     align-items: center;
 }
 .main-title h1{
-    /* border: red 1px solid; */
     display: flex;
     font-family: 'Great Vibes', cursive;
     font-size: 5rem;
     font-weight: 100;
-    /* margin-bottom: 10px; */
 }
 
 h2{
@@ -70,6 +65,7 @@ h2{
 
 }
 
+
 .section-two{
     display: flex;
     align-items: center;
@@ -80,31 +76,34 @@ h2{
  
 }
 .date{
+    margin-top: 2.3%;
+    padding-bottom: 2%;
     display: flex;
+    height: 20%;
     align-items: center;
     justify-content: center;
-    /* margin-top: 20px; */
-    background-color: #507B6F;
-    
+    color: #fff ;
+    background-color: #E2C977;
     
 }
 
 .time{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     margin: 3%;
+    padding-bottom: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
-    border: #E2C977 2px solid;
+    /* color: #85B3A0; */
+    /* border: #E2C977 2px solid; */
     border-radius: 80px;
 }
 
 .time small{
-    color: #ffffff;
-    font-size: 1.5rem;
+    /* color: #85B3A0; */
+    font-size: 1.2rem;
 
 }
 
@@ -112,9 +111,9 @@ h4 {
  display: flex;
  flex-direction: center;
  text-align: center;
- color: #fff;
+ /* color: #85B3A0; */
  font-family: 'Montserrat', sans-serif;
- font-weight: 700;
+ font-weight: 500;
  font-size: 2.5rem;
  padding-top: 50px;
  
@@ -350,6 +349,9 @@ padding: 5px 10px;
 .modal-content p{
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-weight: 300;
+
 }
 
 .close-button {
