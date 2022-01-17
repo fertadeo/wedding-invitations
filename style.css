@@ -380,12 +380,13 @@ padding: 5px 10px;
 
 @media (max-width: 767px) {
     .portrait{
+        height: 75vh;
         font-size: 1rem;
-        background-size: 100%;
+        background-size: 90%;
         background-attachment: scroll;
     }
     .section-two{
-        margin-top: 30%;
+        margin-top: 5%;
     }
     .section-two-dates{
         display: flex;
@@ -395,7 +396,47 @@ padding: 5px 10px;
 
     .date h4{
         margin-top: 20%;
+    }
+ 
+    .ceremony img{
+        width: 17vw;
+    }
 
-        
+    .ceremony{
+        text-align: center;
+    }
+
+    .party{
+        text-align: center;
+    }
+    .party img{
+        width: 17vw;
+        /* height: 15vh; */
+    }
+    .dress-code{
+        margin: 0;
+        padding: 0;
+        height: 15vh;
+    }
+
+    .hashtag{
+        padding-top: 70px;
+    }
+
+    .hashtag .first, .second, .thr{
+        margin-top: 5%;
+    }
+
+    .asistance{
+        height: 45vh;
+    }
+    .thanks p{
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 500 ;
+    }
+
+    .asis-price{
+        margin-top: 3%;
     }
 }
