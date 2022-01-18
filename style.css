@@ -378,7 +378,7 @@ padding: 5px 10px;
 
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .portrait{
         height: 75vh;
         font-size: 1rem;
@@ -417,6 +417,83 @@ padding: 5px 10px;
         margin: 0;
         padding: 0;
         height: 15vh;
+    }
+
+    .hashtag{
+        padding-top: 70px;
+    }
+
+    .hashtag .first, .second, .thr{
+        margin-top: 5%;
+    }
+
+    .asistance{
+        height: 45vh;
+    }
+    .thanks p{
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 500 ;
+    }
+
+    .asis-price{
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .portrait{
+        height: 75vh;
+        font-size: 1rem;
+        background-size: 110%;
+        background-attachment: scroll;
+    }
+
+    .portrait .main-title h1, h2{
+        font-size: 2.5rem;
+    }
+
+    .portrait h3{
+        font-size: 1rem;
+    }
+    .section-two{
+        /* margin-top: 5%; */
+    }
+    .section-two-dates{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .date .time h4{
+        font-size: 1.5rem;
+    }
+    .date{
+     padding-bottom: 10px;
+    }
+ 
+    .ceremony img{
+        width: 18vw;
+    }
+
+    .ceremony, .party{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .party{
+        text-align: center;
+        width: 100%;
+    }
+    .party img{
+        width: 18vw;
+        /* height: 15vh; */
+    }
+    .dress-code{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 30vh;
     }
 
     .hashtag{
