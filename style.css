@@ -494,8 +494,8 @@ padding: 5px 10px;
     .hashtag img{
         margin-top: 0;
         width: 20%;
-        height: 20%;
-        border-radius: 50px;
+        height: 17%;
+        border-radius: 80px;
     }
     .hashtag .first, .sec, .thr{
         margin-top: 5%;
@@ -522,7 +522,7 @@ padding: 5px 10px;
     
     }
     .asistance-title{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
     }
     .asistance .asis-final-date{
