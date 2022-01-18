@@ -88,13 +88,12 @@ h2{
 .time{
     width: 80px;
     height: 80px;
-    margin: 3%;
-    padding-bottom: 2%;
+    /* margin: 3%; */
+    /* padding-bottom: 2%; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 80px;
 }
 
 .time small{
@@ -111,7 +110,6 @@ h4 {
  font-family: 'Montserrat', sans-serif;
  font-weight: 500;
  font-size: 2.5rem;
- padding-top: 50px;
  
 }
 
@@ -293,7 +291,6 @@ font-weight: 400;
 .buttons button{
 background-color: #E2C977;
 border: #E2C977 2px solid;
-text-transform: uppercase;
 padding: 5px 10px;
 }
 
@@ -451,17 +448,24 @@ padding: 5px 10px;
         flex-direction: column;
        
     }
+    .time{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
      .time h4{
         font-size: 1.5rem;
+
     }
     .date{ 
      display: flex;
      align-items: center;
+     height: 100px;
     }
-
     .ceremony img{
-        width: 40%;
-        height: 50%;
+        width: 50%;
+        height: 40%;
     }
     .ceremony, .party{
         width: 60%;
@@ -469,10 +473,10 @@ padding: 5px 10px;
     }
     .party{
         text-align: center;
-        width: 100%;
+        width: 60%;
     }
     .party img{
-        width: 25%;
+        width: 50%;
         height: 40%;
     }
     .dress-code{
@@ -483,8 +487,13 @@ padding: 5px 10px;
 
     }
     .dress-code p{
-        font-size: 1rem;
-        font-weight: 800;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .dress-code-text{
+        font-size: 1.3rem;
+        font-weight: 200;
     }
     .hashtag{
         padding-top: 40px;
@@ -502,14 +511,14 @@ padding: 5px 10px;
         text-align: center;
     }
     .first{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .sec{
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 400;
     }
     .thr{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 500;
     }
     .asistance{
@@ -525,14 +534,17 @@ padding: 5px 10px;
         font-size: 1rem;
         text-align: center;
     }
-    .asistance .asis-final-date{
+    .asis-final-date{
         font-size: 1.2rem;
         letter-spacing: 2px;
+        margin: 10px 0px 40px 0px;
     }
     .asis-price{
     font-size: 1.2rem;
     text-align: center;
     height: auto;
+    letter-spacing: 0px;
+    margin-top: 1px;
     }
 
     .buttons{
@@ -543,19 +555,32 @@ padding: 5px 10px;
 
     }
     .buttons button{
-     font-size: 0.7rem;
-     width: 80%;
-     height: 30%;
+     font-size: 1.3rem;
+     width: 300px;
+     height: 36%;
      border-radius: 5px;
      text-align: center;
+     padding: 5px 5px;
+
     }
 
     .buttons .sec{
         margin: 0;
         margin-left: 10px;
     }
+    .modal-content{
+        width: 90%;
+        height: auto;
+    }
+    .modal-content h2{
+        font-size: 3rem;
+    }
+
+    .modal-content p{
+         font-size: 1.3rem;
+    }
     .thanks p{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
         font-weight: 300 ;
     }
@@ -573,9 +598,6 @@ padding: 5px 10px;
     }
     .portrait h3{
         font-size: 1rem;
-    }
-    .section-two{
-        /* margin-top: 5%; */
     }
     .section-two-dates{
         display: flex;
