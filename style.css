@@ -377,7 +377,7 @@ padding: 5px 10px;
 }
 
 
-@media only screen and (max-width: 767px) {
+@media  (max-width: 767px) {
     .portrait{
         height: 75vh;
         font-size: 1rem;
@@ -432,7 +432,142 @@ padding: 5px 10px;
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media (max-width: 450px) {
+
+.portrait{
+        height: 70vh;
+        font-size: 1rem;
+        background-size: 140%;
+        background-attachment: scroll;
+    }
+    .portrait .main-title h1, h2{
+        font-size: 3.5rem;
+    }
+    .portrait h3{
+        font-size: 1rem;
+        padding-right: 5px;
+    }
+    .section-two{
+        /* margin-top: 5%; */
+    }
+    .section-two-dates{
+        display: flex;
+        flex-direction: column;
+       
+    }
+     .time h4{
+        font-size: 1.5rem;
+    }
+       
+    }
+    .date{
+     /* padding-bottom: 10px; */
+     height: fit-content ;
+     display: flex;
+     align-items: center;
+
+    }
+
+    .ceremony img{
+        width: 18vw;
+    }
+    .ceremony, .party{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .party{
+        text-align: center;
+        width: 100%;
+    }
+    .party img{
+        width: 18vw;
+        /* height: 15vh; */
+    }
+    .dress-code{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+
+    }
+    .dress-code p{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .hashtag{
+        padding-top: 40px;
+        text-align: center;
+        height: 80%;
+    }
+    .hashtag img{
+        margin-top: 0;
+        width: 30%;
+        height: 30%;
+    }
+    .hashtag .first, .sec, .thr{
+        margin-top: 5%;
+        text-align: center;
+    }
+    .first{
+        font-size: 1rem;
+    }
+    .sec{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .thr{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .asistance{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position-y: 10%;
+    
+    }
+    .asistance-title{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .asistance .asis-final-date{
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .asis-price{
+    font-size: 0.8rem;
+    text-align: center;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .buttons button{
+     font-size: 0.7rem;
+     width: 80%;
+     height: 30%;
+     border-radius: 5px;
+     text-align: center;
+    }
+
+    .buttons .sec{
+        margin: 0;
+        margin-left: 10px;
+    }
+    .thanks p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 300 ;
+    }
+
+}
+
+@media  (max-width: 380px) {
     .portrait{
         height: 75vh;
         font-size: 1rem;
@@ -557,3 +692,4 @@ padding: 5px 10px;
         font-weight: 300 ;
     }
 }
+
