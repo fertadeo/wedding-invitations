@@ -23,7 +23,8 @@ function updateCountdownTime() {
 }
 
 // updateCountdownTime();
-setInterval(updateCountdownTime, 1000)
+refreshInterval = setInterval(updateCountdownTime, 1000)
+clearInterval(refreshInterval)
 
 
 
