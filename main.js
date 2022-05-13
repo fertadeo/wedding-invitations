@@ -9,7 +9,8 @@ const weddingDate = new Date(`April 23 ${currentYear } 18:00:00`);
 
 function updateCountdownTime() {
   const currentTime = new Date();
-  const diff = weddingDate - currentTime;
+//   const diff = weddingDate - currentTime;
+const diff = currentTime - weddingDate;
 
   const d = Math.floor(diff / 1000 / 60 / 60 / 24 );
   const h = Math.floor(diff / 1000 / 60 / 60 ) % 24; 
@@ -24,7 +25,12 @@ function updateCountdownTime() {
 
 // updateCountdownTime();
 refreshInterval = setInterval(updateCountdownTime, 1000)
-clearInterval(refreshInterval)
+// clearInterval(refreshInterval);
+
+
+
+// contador en incremento
+
 
 
 

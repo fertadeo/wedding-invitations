@@ -77,16 +77,20 @@ h2{
 }
 .date{ 
     display: flex;
-    height: 20%;
+    height: 40%;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
+    /* flex-direction: column; */
     color: #fff ;
     background-color: #E2C977;
     
 }
 
-.date 
+.counter h2{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
 
 .time{
     width: 80px;
